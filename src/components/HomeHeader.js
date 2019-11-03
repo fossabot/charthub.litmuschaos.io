@@ -68,9 +68,17 @@ class HomeHeader extends React.Component {
               <img alt="organization logo" src={process.env.PUBLIC_URL + '/icons/litmus.png'} className="logo-img"/>
             </div>
           </a>
+<<<<<<< HEAD
           <Link to={process.env.PUBLIC_URL} className="home">
           <h3 className="top-header-home">{<FaHome />}</h3>
           </Link>
+=======
+
+          <Link to={process.env.PUBLIC_URL} className="home">
+          <h3 className="top-header-home">{<FaHome />}</h3>
+          </Link>
+
+>>>>>>> 3619ca1... Added home btn to header (#35)
           <input className="top-header-input" placeholder="Search for charts..." value={this.state.searchTerm} onChange={this.handleSearchTermChange} />
           <a href = "https://github.com/litmuschaos/community-charts/blob/master/CONTRIBUTING.md" target = "_blank" rel="noopener noreferrer">
           <h3 className="top-header-contribute">Contribute<span className="contribute-icon-container">{/*<FaChevronDown />*/}</span></h3>
